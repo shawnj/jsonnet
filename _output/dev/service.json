@@ -1,0 +1,22 @@
+{
+   "repcontroller.json": {
+      "apiVersion": "v1",
+      "kind": "ReplicationController",
+      "metadata": {
+         "labels": {
+            "name": "nginx-rep-dev"
+         },
+         "name": "nginx-rep-dev"
+      }
+   },
+   "service.json": {
+      "apiVersion": "v1",
+      "kind": "Service",
+      "metadata": {
+         "labels": {
+            "name": "nginx-dev"
+         },
+         "name": "nginx-dev"
+      }
+   }
+}

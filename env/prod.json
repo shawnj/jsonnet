@@ -1,0 +1,4 @@
+{
+    "service": "nginx-prod",
+    "replicationController": "nginx-rep-prod"
+}
